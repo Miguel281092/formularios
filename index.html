@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <h1>Formularios(forms)</h1>
+    <p>Los formularios son estructuras para capturan informacion del cliente</p>
+    <form>
+      <label for="nombre">Nombre</label>
+      <input type="text" placeholder="Nombre" id="nombre" />
+      <br />
+      <br />
+      <label for="contrasena">Contraseña</label>
+      <input type="password" placeholder="Contraseña" id="contrasena" />
+      <br /><br />
+      <label for="color">Color</label>
+      <input type="color" id="color" />
+      <br /><br />
+      <label for="fecha">Fecha</label>
+      <input type="datetime-local" id="fecha" />
+      <p>El input para fecha puede ser "datetime-local,date o month</p>
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Email" autocomplete="off" />
+      <br /><br />
+      <label for="archivo">Archivo</label>
+      <input type="file" id="archivo" />
+      <br /><br />
+      <label for="imagen">Imagen</label>
+      <input type="image" id="image" />
+      <p>Sugerencia no usas el input image</p>
+      <label for="numeros">Nùmeros</label>
+      <input type="number" id="numeros" max="15" min="5" />
+      <br /><br />
+      <label for="rango">Rango</label>
+      <input type="range" id="rango" min="10" max="20" value="10" step="5" />
+    </form>
+  </body>
+</html>
